@@ -1,0 +1,139 @@
+.filters {
+  padding: 0;
+  list-style: none;
+}
+.filters .filter {
+  display: inline-block;
+  font-weight: 700;
+  padding-right: 0;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+.filters .filter:hover {
+  color: #009ed2;
+}
+.filters .filter-subitems {
+  color: black;
+  padding-left: 3px;
+  list-style: none;
+  display: none;
+  height: 0;
+  transition: 0.5s;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+.filters .filter-subitems:hover .subitem:hover {
+  color: #b1613c;
+}
+.filters .subitem__name {
+  float: left;
+}
+.filters .subitem__count {
+  position: absolute;
+  right: 0;
+}
+.filter-subitems {
+  padding: 0;
+}
+#checkFilter {
+  background: #0c1822;
+  color: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  min-height: 4.4rem;
+}
+#checkFilter .filter-container {
+  cursor: default;
+  background: white;
+  color: black;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem ;
+}
+#checkFilter .filter-container .filter-close {
+  margin-left: 1rem;
+}
+#checkFilter .filter-container .filter-close:hover {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+body {
+  background: #eaddc5;
+}
+.visible-f {
+  display: block !important;
+  height: auto !important;
+}
+.subitem-active {
+  background: brown;
+  color: white;
+}
+.search-list {
+  padding: 0;
+}
+.search-list__items {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+.search-list__items:after {
+  content: "";
+  display: block;
+  width: 81%;
+  margin: 0 auto;
+  height: 1px;
+  background: #0c1822;
+  margin-top: 20px;
+}
+.search-list .vacancy__name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.search-list .vacancy__description {
+  font-size: 13px;
+}
+.search-list .vacancy__town {
+  font-size: 12px;
+  color: rgba(12, 24, 34, 0.58);
+  font-weight: 700;
+}
+.search-list .vacancy__salary {
+  font-size: 16px;
+}
+.search-list .vacancy .employer {
+  font-size: 12px;
+  color: #9a7633;
+  font-weight: 600;
+}
+.search-form {
+  padding: 0 !important;
+}
+.search-form__btn {
+  background: #0c1822;
+  color: white;
+  border: none;
+  padding: 3px 18px;
+  margin-left: 11px;
+}
+.search-form__btn:hover {
+  background: #009ed2;
+}
+.header {
+  padding-top: 1rem ;
+  padding-bottom: 1rem ;
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  padding-left: 0;
+}
+.header .logo__img {
+  width: 100%;
+}
+.header .statistic__count {
+  font-size: 2rem;
+  color: #0c1822;
+}

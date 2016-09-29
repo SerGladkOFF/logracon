@@ -1,0 +1,74 @@
+.filters{
+  padding: 0;
+  list-style: none;
+  .filter {
+    display: inline-block;
+    font-weight: 700;
+    padding-right: 0;
+    letter-spacing: 0.7px;
+    cursor:pointer;
+    &:hover {
+      color: #009ed2;
+    }
+    &-subitems {
+      color:black;
+      padding-left: 3px;
+      list-style: none;
+      display: none;
+      height: 0;
+      transition: 0.5s;
+      font-size:1rem;
+      font-weight: 100;
+      letter-spacing: 0px;
+      &:after{
+        //content: '';
+        //display: block;
+        //background: black;
+        //width: 2px;
+        //height: 2px;
+        //float: right;
+        //margin-top: 11px;
+      }
+    &:hover .subitem:hover{
+      color: #b1613c;
+    }
+    }
+  }
+  .subitem {
+    &__name {
+      float: left;
+    }
+    &__count {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+.filter-subitems {
+  padding: 0;
+}
+#checkFilter {
+background: @dark-main;
+  color: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  min-height: 4.4rem;
+  .filter-container {
+      cursor: default;
+      background: white;
+      color: black;
+      display: inline-block;
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-right:0.5rem ;
+    .filter-close {
+      margin-left: 1rem;
+      &:hover{
+        cursor: pointer;
+        color: red;
+        font-weight:bold;
+      }
+
+    }
+  }
+}

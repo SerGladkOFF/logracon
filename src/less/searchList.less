@@ -1,0 +1,39 @@
+.search-list {
+    padding: 0;
+    &__items {
+        list-style: none;
+        padding: 0;
+        margin: 20px;
+        &:after {
+            content: "";
+            display: block;
+            width: 81%;
+            margin: 0 auto;
+            height: 1px;
+            background: #0c1822;
+            margin-top: 20px;
+        }
+    }
+    .vacancy {
+        &__name {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        &__description {
+            font-size: 13px;
+        }
+        &__town {
+            font-size: 12px;
+            color: rgba(12, 24, 34, 0.58);
+            font-weight: 700;
+        }
+        &__salary {
+            font-size: 16px;
+        }
+        .employer {
+            font-size: 12px;
+            color: rgb(154, 118, 51);
+            font-weight: 600;
+        }
+    }
+}

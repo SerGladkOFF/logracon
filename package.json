@@ -1,0 +1,23 @@
+{
+  "name": "logrocon_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.4.0"
+  }
+}

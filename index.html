@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="container header">
+
+        <div class="logo col-lg-1">
+                        <img src="./src/img/logo.png" alt="" class="logo__img ">
+                    </div>
+                    <div class="statistic">
+                        <span class="statistic__name">В Калуге найдено : <span id="statisticCount" class="statistic__count"></span> вакансий </span>
+
+                    </div>
+
+    </header>
+    <main class="container">
+
+        <div id="search-form" class="col-lg-12 search-form">
+            <input type="text" class="search-form__field col-lg-6">
+            <button type="button" id="searchBtn" class="search-form__btn">НАЙТИ</button>
+                </div>
+        <div id="checkFilter" class="col-md-12">
+            <span>выбранные фильтры :</span>
+        </div>
+        <div class="row">
+            <aside id="filters" class=" col-lg-2">
+
+            </aside>
+            <main  id="result" class="result col-lg-9"></main>
+        </div>
+    </main>
+<script src="./bundle.js"></script>
+</body>
+</html>
